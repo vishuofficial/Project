@@ -1,0 +1,300 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/2e/e9/18/2ee918427712255bc116749e33616d33.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+.biga{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.vLKFzsLUjelrGbUsVDDyWgHaEo&pid=Api&P=0&h=180);
+    height: 50px;
+    width: 1331px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px double black;
+}
+#sectiona{
+    background-image: url(https://www.pizzaexpress.com.my/wp-content/uploads/2018/06/Pizza-Burgers.jpg);
+    height: 250px;
+    width: 1335px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#bigb{
+    background-image: url(https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2017/08/18172955/YSPxP_B-10-scaled.jpg);
+    height: 500px;
+    width: 670px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px double black;
+}
+.logo{
+    height: 50px;
+    width: 90px;
+    background-color: rgb(241, 83, 25);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.logo:hover{
+    background-color: yellow;
+}
+.logoa{
+    position: absolute;
+    margin-top: 1px;
+    letter-spacing: 5.5px;
+    margin-left: 7px;
+    text-decoration: underline;
+}
+.logob{
+    font-family:'Franklin Gothic Medium';
+    font-size: 30px;
+    position: absolute;
+    margin-top: 15.5px;
+    letter-spacing: 2px;
+    margin-left: 7px;
+}
+.search-menu{
+    height: 35px;
+    width: 350px;
+    background-color: papayawhip;
+    border: 2px rgb(128, 128, 128) solid;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 1.4px;
+    margin-left: 1px;
+}
+.search-menia{
+    display: flex;
+    height: 38px;
+    margin-top: 7px;
+    background-color: orange;
+    width:392px;
+    border-radius: 5px;
+}
+.search-menia:hover{
+    background-color: rgb(56, 47, 47);
+    box-shadow: 2px 2px 10px black ;
+}
+.search-button{
+    height: 35px;
+    width: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 1.4px;
+    margin-left: 1px;
+}
+.nav-head{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(245, 148, 21);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.nav-content{
+    font-size: larger;
+    height: 25px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
+.nav-content:hover{
+    border-radius: 5px;
+    border: 1px solid yellow;
+    box-shadow: 2px 2px 10px gray;
+}
+.nav-content>a{
+    text-decoration: none;
+    color: black;
+}
+.Account{
+    width: 82px;
+    background-color: orange;
+    height: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.Account>a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.Account:hover{
+    background-color: yellow;
+    box-shadow: 2px 2px 10px black;
+}
+.first-heading{
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+#heading1{
+    font-size: 100px;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 0;
+}
+#sub-heading1{
+    font-size: 35px;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 0px;
+    font-family: 'Segoe UI';
+    font-style: italic ;
+    text-decoration: underline;
+    color: aquamarine;
+
+}
+.order-button{
+    height: 50px;
+    margin-left: 30px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(251, 255, 0);
+    border: 1px solid black;
+}
+#bigc{
+    height: 500px;
+    width: 1341px;
+}
+#sectionb{
+    background-image: url(https://wallpapercave.com/wp/wp4056225.jpg);
+    height: 500px;
+    width: 670px;
+    background-size: cover;
+    margin-left: 670px;
+    border-top: 2px solid black;
+}
+#sectionb>h1{
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -550px;
+    font-size: 100px;
+}
+#sectionb>h5{
+    color: aquamarine;
+    margin-left: -620px;
+    font-size: 35px;
+    margin-top: 320px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.order-button1{
+    height: 50px;
+    margin-left: -200px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(251, 255, 0);
+    border: 1px solid black;
+}
+.dosa{
+    background-image: url(https://1.bp.blogspot.com/-yk2hGbhFwKs/YBBdovMrkFI/AAAAAAAAZbk/-ze_IB3b4Bk4UPqZXk6Fp7QW7JF6v5dXACLcBGAsYHQ/s2048/masala%2Bdosa%2B1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 670PX;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+#laziz{
+    color: whitesmoke;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 700px;
+}
+.dosa>h2{
+    color: aquamarine;
+    font-size: 35px;
+    text-decoration: underline;
+    font-style:italic;
+    position: absolute;
+    margin-top: 355px;
+    margin-left: 900px;
+}
+.dosa>button{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 700px;
+}
+#sectiond{
+    background-image: url(https://www.thestatesman.com/wp-content/uploads/2019/04/idli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 670px;
+    position: absolute;
+    margin-left: 670px;
+    border-left: 1px solid black;
+}
+#sectiond>h1{
+    color:whitesmoke;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -630px;
+    font-size: 100px;
+}
+#sectiond>h2{
+    color: aquamarine;
+    font-size: 35px;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: -630px;
+    text-decoration: underline;
+    font-style: italic;
+}
+#sectiond>button{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: -230px;
+}
+#our-services{
+    background-color: transparent;
+    height: 70px;
+    width: 1341px;
+    position: absolute;
+    margin-top: 501px;
+    border-top: 10px double yellow;
+    border-bottom: 10px double yellow;
+    text-align: center;
+}
+#our-services>h1{
+    color: floralwhite  ;
+    font-size: 50px;
+    position: relative;
+    margin-top: 2px;
+    letter-spacing: 8px;
+}
+.order-menu{
+    height: 700px;
+    width: 1341px;
+    position: absolute;
+    margin-top: 595px;
+    display: flex;
+    justify-content: space-around;
+}
+.breakfast-menu, .lunch-menu, .dinner-menu{
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/6817836/1820/1213/m1/fpnw/wm1/ppjyzfwgu3bslgx649uvkwoixqqyaecyqhdumlgebllo3eacpfu8n08enom0fnhj-.jpg?1565781144&s=37b74a19c3153bef88295533b08f6155);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 650px;
+    border: 1px solid black;
+}
+.div-for-heading{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.0M5WWwOuCnuKsZtUFab9cAHaE3&pid=Api&P=0&h=180);
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom: 1px solid black;
+}
