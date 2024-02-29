@@ -27,6 +27,30 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     border-top: 1px double black;
+    /* Animation */
+    animation-name: pizza;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pizza {
+    0%{
+        opacity: 0.1;
+        transform: translateX(-250px);
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    75%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .logo{
     height: 50px;
@@ -137,6 +161,20 @@ body{
     color: whitesmoke;
     display: inline-block;
     margin: 0;
+    /* Animation */
+    animation-name: pizza-heading1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+}
+
+@keyframes pizza-heading1 {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 100px;
+    }
 }
 #sub-heading1{
     font-size: 35px;
@@ -147,7 +185,22 @@ body{
     font-style: italic ;
     text-decoration: underline;
     color: aquamarine;
+     /* Animation */
+    animation: pizza-subh1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
 
+@keyframes pizza-subh1 {
+    from {
+        font-size: 10px;
+        color: yellow;
+    }
+    to{
+        font-size: 35px;
+        color: aquamarine;
+    }
 }
 .order-button{
     height: 50px;
@@ -169,6 +222,29 @@ body{
     background-size: cover;
     margin-left: 670px;
     border-top: 2px solid black;
+    /* Animation */
+    animation-name: burger;
+    animation-duration: 2s;
+    animation-delay: 20ms;
+    animation-timing-function: linear;   
+}
+@keyframes burger {
+    0%{
+        opacity: 0.1;
+        transform: translateX(250px);
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    75%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 #sectionb>h1{
     color: whitesmoke;
@@ -194,7 +270,7 @@ body{
     background-color: rgb(251, 255, 0);
     border: 1px solid black;
 }
-.dosa{
+#sectionc{
     background-image: url(https://1.bp.blogspot.com/-yk2hGbhFwKs/YBBdovMrkFI/AAAAAAAAZbk/-ze_IB3b4Bk4UPqZXk6Fp7QW7JF6v5dXACLcBGAsYHQ/s2048/masala%2Bdosa%2B1.JPG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -202,6 +278,20 @@ body{
     width: 670PX;
     border-top: 1px solid black;
     border-right: 1px solid black;
+    /* Animation */
+    animation-name: dosa;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+@keyframes dosa {
+    from{
+        opacity: 0.1;
+        transform:translateX(-250px);
+    }
+    to{
+        opacity: 1;
+    }
 }
 #laziz{
     color: whitesmoke;
@@ -232,6 +322,31 @@ body{
     position: absolute;
     margin-left: 670px;
     border-left: 1px solid black;
+}
+#sectiond{
+    /* Animation */
+    animation-name: idli;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: ease;
+}
+@keyframes idli {
+    0%{
+        opacity: 0.1;
+        transform: translateX(-250px);
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    75%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 #sectiond>h1{
     color:whitesmoke;
