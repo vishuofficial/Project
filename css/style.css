@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(18,228,162);
-background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(227,210,14,0.6923144257703081) 48%, rgba(0,255,68,0.5830707282913166) 100%);
+    background: linear-gradient(325deg, rgb(115, 93, 142) 0.00%, rgb(58, 33, 86) 100.00%);    
 }
 .biga{
-    background-image: url(https://tse2.mm.bing.net/th?id=OIP.vLKFzsLUjelrGbUsVDDyWgHaEo&pid=Api&P=0&h=180);
-    height: 50px;
-    width: 1331px;
+    background: linear-gradient(181deg, rgb(2, 28, 122) 0.00%, rgb(36, 83, 255) 48.87%);
+    height: 54px;
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     border: 2px double black;
@@ -18,11 +17,38 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
 #sectiona{
     background-image: url(https://www.pizzaexpress.com.my/wp-content/uploads/2018/06/Pizza-Burgers.jpg);
     height: 250px;
-    width: 1335px;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    animation-name: pizzaexpress;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+@keyframes pizzaexpress {
+    0%{
+        opacity: 0.2;
+        transform: translateZ(-100px);
+    }
+    25%{
+        opacity: 0.4;
+        transform: translateZ(-75px);
+    }
+    50%{
+        opacity: 0.6;
+        transform: translateZ(-50px);
+    }
+    75%{
+        opacity: 0.8;
+        transform: translateZ(-25px);
+    }
+    100%{
+        opacity: 1.0;
+        transform: translateZ(0px);
+    }
 }
 #bigb{
     background-image: url(https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2017/08/18172955/YSPxP_B-10-scaled.jpg);
@@ -59,9 +85,7 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
 .logo{
     height: 50px;
     width: 90px;
-    background-color: rgb(241, 83, 25);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-radius: 5px;
 }
 .logo:hover{
     background-color: yellow;
@@ -82,77 +106,56 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
     margin-left: 7px;
 }
 .search-menu{
-    height: 35px;
+    height: 33px;
     width: 350px;
-    background-color: papayawhip;
-    border: 2px rgb(128, 128, 128) solid;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
     margin-top: 1.4px;
     margin-left: 1px;
+    border-radius: 20px;
+    text-align: center;
 }
 .search-menia{
     display: flex;
     height: 38px;
     margin-top: 7px;
-    background-color: orange;
     width:392px;
     border-radius: 5px;
 }
-.search-menia:hover{
-    background-color: rgb(56, 47, 47);
-    box-shadow: 2px 2px 10px black ;
-}
 .search-button{
-    height: 35px;
-    width: 40px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-top: 1.4px;
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+    margin-top: 1.1px;
     margin-left: 1px;
 }
 .nav-head{
-    width: 350px;
+    width: 420px;
     height: 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(245, 148, 21);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    word-spacing: 5px;
+    font-family: sans-serif;
 }
 .nav-content{
-    font-size: larger;
-    height: 25px;
-    font-weight: bolder;
-    font-size: x-large;
-    text-align: center;
+    color: white;
 }
-.nav-content:hover{
-    border-radius: 5px;
-    border: 1px solid yellow;
-    box-shadow: 2px 2px 10px gray;
-}
+
 .nav-content>a{
     text-decoration: none;
-    color: black;
+    color: azure;
 }
-.Account{
-    width: 82px;
-    background-color: orange;
-    height: 50px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.nav-content>a:hover{
+    text-decoration: underline;
 }
-.Account>a{
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    font-weight: bold;
-}
-.Account:hover{
-    background-color: yellow;
-    box-shadow: 2px 2px 10px black;
+.login{
+    height: 33px;
+    width: 60px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: transparent;
+    color: azure;
+    border: 1px solid white;
+    margin-left: 20px;
 }
 .first-heading{
     height: 400px;
@@ -222,7 +225,7 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
 #sectionb{
     background-image: url(https://wallpapercave.com/wp/wp4056225.jpg);
     height: 500px;
-    width: 670px;
+    width: 679px;
     background-size: cover;
     margin-left: 670px;
     border-top: 2px solid black;
@@ -248,7 +251,7 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
     }
     100%{
         opacity: 1;
-    }
+    } 
 }
 #sectionb>h1{
     color: whitesmoke;
@@ -285,7 +288,7 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
     /* Animation */
     animation-name: dosa;
     animation-duration: 2s;
-    animation-delay: 1s;
+    animation-delay: 0s;
     animation-timing-function: linear;
 }
 @keyframes dosa {
@@ -302,6 +305,7 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
     font-size: 100px;
     position: absolute;
     margin-left: 700px;
+    margin-top: 50px;
 }
 .dosa>h2{
     color: aquamarine;
@@ -322,7 +326,7 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 670px;
+    width: 679px;
     position: absolute;
     margin-left: 670px;
     border-left: 1px solid black;
@@ -376,18 +380,18 @@ background: linear-gradient(90deg, rgba(18,228,162,0.8715861344537815) 0%, rgba(
 #our-services{
     background-color: transparent;
     height: 70px;
-    width: 1341px;
+    width: 100vw;
     position: absolute;
-    margin-top: 501px;
-    border-top: 10px double yellow;
-    border-bottom: 10px double yellow;
+    margin-top: 505px;
+    border-top: 10px double yellowgreen;
+    border-bottom: 10px double yellowgreen;
     text-align: center;
 }
 #our-services>h1{
     color: floralwhite  ;
     font-size: 50px;
     position: relative;
-    margin-top: 2px;
+    margin-top: -5px;
     letter-spacing: 8px;
 }
 .order-menu{
