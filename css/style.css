@@ -7,80 +7,12 @@ body{
     background: linear-gradient(325deg, rgb(115, 93, 142) 0.00%, rgb(58, 33, 86) 100.00%);    
 }
 .biga{
-    background: linear-gradient(181deg, rgb(2, 28, 122) 0.00%, rgb(36, 83, 255) 48.87%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
     height: 54px;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
     border: 2px double black;
-}
-#sectiona{
-    background-image: url(https://www.pizzaexpress.com.my/wp-content/uploads/2018/06/Pizza-Burgers.jpg);
-    height: 250px;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    animation-name: pizzaexpress;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-timing-function: ease;
-}
-@keyframes pizzaexpress {
-    0%{
-        opacity: 0.2;
-        transform: translateZ(-100px);
-    }
-    25%{
-        opacity: 0.4;
-        transform: translateZ(-75px);
-    }
-    50%{
-        opacity: 0.6;
-        transform: translateZ(-50px);
-    }
-    75%{
-        opacity: 0.8;
-        transform: translateZ(-25px);
-    }
-    100%{
-        opacity: 1.0;
-        transform: translateZ(0px);
-    }
-}
-#bigb{
-    background-image: url(https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2017/08/18172955/YSPxP_B-10-scaled.jpg);
-    height: 500px;
-    width: 670px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-top: 1px double black;
-    /* Animation */
-    animation-name: pizza;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-timing-function: ease-in;
-}
-
-@keyframes pizza {
-    0%{
-        opacity: 0.1;
-        transform: translateX(-250px);
-    }
-    25%{
-        opacity: 0.5;
-    }
-    50%{
-        opacity: 0.7;
-    }
-    75%{
-        opacity: 0.9;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 .logo{
     height: 50px;
@@ -156,6 +88,84 @@ body{
     color: azure;
     border: 1px solid white;
     margin-left: 20px;
+}
+#sectiona{
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    animation-name: pizzaexpress;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+#sectiona>marquee>h1{
+    color: red;
+}
+.shock-reaction{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.hRk4WarFr7ExjmucGg7zkwHaFj&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin-left: 50px;
+    background-blend-mode: multiply;
+}
+@keyframes pizzaexpress {
+    0%{
+        opacity: 0.2;
+        transform: translateZ(-100px);
+    }
+    25%{
+        opacity: 0.4;
+        transform: translateZ(-75px);
+    }
+    50%{
+        opacity: 0.6;
+        transform: translateZ(-50px);
+    }
+    75%{
+        opacity: 0.8;
+        transform: translateZ(-25px);
+    }
+    100%{
+        opacity: 1.0;
+        transform: translateZ(0px);
+    }
+}
+#bigb{
+    background-image: url(https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2017/08/18172955/YSPxP_B-10-scaled.jpg);
+    height: 500px;
+    width: 670px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px double black;
+    /* Animation */
+    animation-name: pizza;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+@keyframes pizza {
+    0%{
+        opacity: 0.1;
+        transform: translateX(-250px);
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    75%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .first-heading{
     height: 400px;
@@ -235,6 +245,13 @@ body{
     animation-delay: 20ms;
     animation-timing-function: linear;   
 }
+#sectionb>h1{
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -550px;
+    font-size: 100px;
+}
 @keyframes burger {
     0%{
         opacity: 0.1;
@@ -252,13 +269,6 @@ body{
     100%{
         opacity: 1;
     } 
-}
-#sectionb>h1{
-    color: whitesmoke;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: -550px;
-    font-size: 100px;
 }
 #sectionb>h5{
     color: aquamarine;
@@ -403,21 +413,45 @@ body{
     justify-content: space-around;
 }
 .breakfast-menu, .lunch-menu, .dinner-menu{
-    background-image: url(https://images.creativemarket.com/0.1.0/ps/6817836/1820/1213/m1/fpnw/wm1/ppjyzfwgu3bslgx649uvkwoixqqyaecyqhdumlgebllo3eacpfu8n08enom0fnhj-.jpg?1565781144&s=37b74a19c3153bef88295533b08f6155);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 300px;
+    background-color: rgb(133, 84, 20);
+    width: 420px;
     height: 650px;
-    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .div-for-heading{
-    background-image: url(https://tse4.mm.bing.net/th?id=OIP.0M5WWwOuCnuKsZtUFab9cAHaE3&pid=Api&P=0&h=180);
-    color: aliceblue;
+    background-color: rgb(202, 123, 26);
+    color: rgb(70, 11, 11);
     font-size: 30px;
     display: flex;
     justify-content: center;
     position: relative;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
     border-bottom: 2px solid black;
+}
+.breakfast-list{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    margin-top: 90px;
+    color: whitesmoke;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.breakfast-list>h2{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -235px;
+}
+.breakfast-list>.non-veg-head{
+    position: absolute;
+    margin-left: -185px;
+}
+.line{
+    border: 2px double rgb(122, 43, 6);
+    width: 370px;
+    margin-left: 25px;
+    border-radius: 5px;
 }
